@@ -11,14 +11,13 @@
 		D50632201CC8FD9200238765 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D506321F1CC8FD9200238765 /* ViewController.swift */; };
 		D50632231CC8FD9200238765 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D50632211CC8FD9200238765 /* Main.storyboard */; };
 		D50632251CC8FD9200238765 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D50632241CC8FD9200238765 /* Assets.xcassets */; };
-		D50632281CC8FD9200238765 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D50632261CC8FD9200238765 /* LaunchScreen.storyboard */; };
 		D506322D1CC8FD9200238765 /* WatchKitAccelerometer WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = D506322C1CC8FD9200238765 /* WatchKitAccelerometer WatchKit App.app */; };
 		D50632331CC8FD9200238765 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D50632311CC8FD9200238765 /* Interface.storyboard */; };
 		D50632351CC8FD9200238765 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D50632341CC8FD9200238765 /* Assets.xcassets */; };
 		D506323C1CC8FD9200238765 /* WatchKitAccelerometer WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D506323B1CC8FD9200238765 /* WatchKitAccelerometer WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		D50632411CC8FD9200238765 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50632401CC8FD9200238765 /* InterfaceController.swift */; };
 		D50632431CC8FD9200238765 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50632421CC8FD9200238765 /* ExtensionDelegate.swift */; };
-		D50632451CC8FD9300238765 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D50632441CC8FD9300238765 /* Assets.xcassets */; };
+		D55CF1BB1CCC190B00508252 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D55CF1BA1CCC190B00508252 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,7 +68,6 @@
 		D506321F1CC8FD9200238765 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D50632221CC8FD9200238765 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D50632241CC8FD9200238765 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D50632271CC8FD9200238765 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D50632291CC8FD9200238765 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D506322C1CC8FD9200238765 /* WatchKitAccelerometer WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WatchKitAccelerometer WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D50632321CC8FD9200238765 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
@@ -78,8 +76,8 @@
 		D506323B1CC8FD9200238765 /* WatchKitAccelerometer WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "WatchKitAccelerometer WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D50632401CC8FD9200238765 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
 		D50632421CC8FD9200238765 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
-		D50632441CC8FD9300238765 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D50632461CC8FD9300238765 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D55CF1BA1CCC190B00508252 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,8 +125,8 @@
 				D506321F1CC8FD9200238765 /* ViewController.swift */,
 				D50632211CC8FD9200238765 /* Main.storyboard */,
 				D50632241CC8FD9200238765 /* Assets.xcassets */,
-				D50632261CC8FD9200238765 /* LaunchScreen.storyboard */,
 				D50632291CC8FD9200238765 /* Info.plist */,
+				D55CF1BA1CCC190B00508252 /* Launch Screen.storyboard */,
 			);
 			path = WatchKitAccelerometer;
 			sourceTree = "<group>";
@@ -148,7 +146,6 @@
 			children = (
 				D50632401CC8FD9200238765 /* InterfaceController.swift */,
 				D50632421CC8FD9200238765 /* ExtensionDelegate.swift */,
-				D50632441CC8FD9300238765 /* Assets.xcassets */,
 				D50632461CC8FD9300238765 /* Info.plist */,
 			);
 			path = "WatchKitAccelerometer WatchKit Extension";
@@ -256,7 +253,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D50632281CC8FD9200238765 /* LaunchScreen.storyboard in Resources */,
+				D55CF1BB1CCC190B00508252 /* Launch Screen.storyboard in Resources */,
 				D50632251CC8FD9200238765 /* Assets.xcassets in Resources */,
 				D50632231CC8FD9200238765 /* Main.storyboard in Resources */,
 			);
@@ -275,7 +272,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D50632451CC8FD9300238765 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,14 +318,6 @@
 				D50632221CC8FD9200238765 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		D50632261CC8FD9200238765 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D50632271CC8FD9200238765 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 		D50632311CC8FD9200238765 /* Interface.storyboard */ = {
@@ -529,6 +517,7 @@
 				D506324B1CC8FD9300238765 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D506324D1CC8FD9300238765 /* Build configuration list for PBXNativeTarget "WatchKitAccelerometer WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -537,6 +526,7 @@
 				D506324F1CC8FD9300238765 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D50632511CC8FD9300238765 /* Build configuration list for PBXNativeTarget "WatchKitAccelerometer" */ = {
 			isa = XCConfigurationList;
@@ -545,6 +535,7 @@
 				D50632531CC8FD9300238765 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

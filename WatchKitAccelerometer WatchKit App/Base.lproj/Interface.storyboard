@@ -1,15 +1,33 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="6221" systemVersion="13E28" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6213"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3733"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="10032"/>
     </dependencies>
     <scenes>
         <!--Interface Controller-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModuleProvider="target"/>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="WatchKitAccelerometer_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <label width="1" height="26.5" alignment="left" text="Label" textAlignment="center" id="oOM-6l-Nyq"/>
+                        <group width="1" height="100" alignment="left" id="cez-D7-vGg">
+                            <items>
+                                <picker width="0.29999999999999999" height="100" alignment="left" style="sequence" indicatorMode="shownWhileFocused" id="GvF-hx-Cl6"/>
+                                <picker width="0.29999999999999999" height="100" alignment="center" style="sequence" id="8iR-vV-UBu"/>
+                                <picker width="40" height="100" alignment="right" style="sequence" id="tWk-Mb-YLo"/>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="statusLabel" destination="oOM-6l-Nyq" id="223-et-sZz"/>
+                        <outlet property="xPicker" destination="GvF-hx-Cl6" id="c0J-lo-vB5"/>
+                        <outlet property="yPicker" destination="8iR-vV-UBu" id="cXE-5f-CRi"/>
+                        <outlet property="zPicker" destination="tWk-Mb-YLo" id="hiO-KC-gPh"/>
+                    </connections>
+                </controller>
             </objects>
+            <point key="canvasLocation" x="885" y="645"/>
         </scene>
     </scenes>
 </document>
